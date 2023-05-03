@@ -1,0 +1,53 @@
+.list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 20px;
+    border-left: 2px solid rgb(238, 238, 238);;
+
+}
+
+.marker{
+    position: absolute;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(238, 238, 238);
+    left: -6px;
+    margin-top: 13px;
+
+}
+
+.text{
+    align-items: center;
+    display: flex;
+    gap: 10px
+}
+
+.year{
+    background-color: #001b5e;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.title{
+   
+    color: #001b5e;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.duration{
+    color: rgb(206, 204, 204);
+    font-weight: 400;
+}
+
+
+.detail{
+    margin-top: 10px;
+    line-height: 1.7;
+}
