@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  AiOutlineHome,
-  AiOutlineProject,
-  AiOutlineMail,
-  AiOutlineClose,
-} from 'react-icons/ai';
-import { BsStickies } from 'react-icons/bs';
+import { AiOutlineClose} from 'react-icons/ai';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import cn from 'classnames';
 import styles from './Burger.module.scss';
@@ -22,11 +16,11 @@ export const Burger = () => {
         <RxHamburgerMenu
           onClick={handleClick}
           className={styles.burg}
-          size={50}
+          size={40}
         />
       ) : (
         <AiOutlineClose
-          size={50}
+          size={40}
           onClick={handleClick}
           className={styles.burg}
         />
@@ -38,7 +32,7 @@ export const Burger = () => {
       >
         <div className={styles.blockIcons}>
           {icons.map((item) => (
-            <Link key={item.name} to={item.to}>
+            <Link onClick={() => setIsVisible(false)} key={item.name} to={item.to}>
             
               <li className={styles.list}>
                 {item.icon}

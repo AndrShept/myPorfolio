@@ -1,31 +1,19 @@
 .list {
-    position: relative;
   display: grid;
   align-items: center;
   justify-content: center;
+  
 }
 
-.item {
-border: 1px;
-
-
-}
 
 .img {
+  
   width: 450px;
   height: 300px;
   object-fit: cover;
   border-radius: 40px;
   box-shadow: 4px 7px 15px 0px rgba(19, 16, 16, 0.651);
-  &:hover{
-opacity: 0.5;
-  
-}
-}
-
-.wrap{
-    position: absolute;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.432);
-
+  &:hover {
+    opacity: 0.5;
+  }
 }

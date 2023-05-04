@@ -8,7 +8,7 @@ export const icons = [
     icon: <AiOutlineHome size={30} />,
     id: Math.round(Math.random() * 1000),
     to: 'Main',
-    name: 'Home'
+    name: 'Home',
   },
   {
     icon: <BsStickies size={30} />,
@@ -31,8 +31,6 @@ export const icons = [
 ];
 
 export const SideBar: React.FC = () => {
- 
-
   return (
     <section className={styles.container}>
       <ul>

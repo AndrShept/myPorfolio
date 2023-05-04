@@ -22,10 +22,10 @@ export const Projects = () => {
         Egestas sed sed risus pretium quam vulputate dignissim.
       </p>
       <div className={styles.wrap}>
-        <ProjectItems img={img1}/>
-        <ProjectItems img={img2}/>
-        <ProjectItems img={img3}/>
-        <ProjectItems img={img4}/>
+        <ProjectItems img={img1} />
+        <ProjectItems img={img2} />
+        <ProjectItems img={img3} />
+        <ProjectItems img={img4} />
       </div>
     </section>
   );
