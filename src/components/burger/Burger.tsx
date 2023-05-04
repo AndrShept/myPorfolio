@@ -16,11 +16,11 @@ export const Burger = () => {
         <RxHamburgerMenu
           onClick={handleClick}
           className={styles.burg}
-          size={40}
+          size={50}
         />
       ) : (
         <AiOutlineClose
-          size={40}
+          size={50}
           onClick={handleClick}
           className={styles.burg}
         />

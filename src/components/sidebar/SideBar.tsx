@@ -33,11 +33,14 @@ export const icons = [
 export const SideBar: React.FC = () => {
   return (
     <section className={styles.container}>
-      <ul>
+      <ul className={styles.wrap}>
         {icons.map((item) => (
-          <li key={item.id} className={styles.icons}>
-            <Link to={item.to}>{item.icon}</Link>
-          </li>
+          <Link to={item.to}>
+           
+            <li key={item.id} className={styles.icons}>
+              {item.icon}
+            </li>
+          </Link>
         ))}
       </ul>
     </section>
